@@ -1,0 +1,17 @@
+/*TABLET*/
+
+@media (max-width: 900px) {
+    .banner {
+        background-image: url(../image/Banner-Tablet.png);
+        padding: 8rem;
+    }
+}
+
+/*MOBILE*/
+
+@media (max-width: 500px) {
+    .banner {
+        background-image: url(../image/Banner-Mobile.png);
+        padding: 5rem;
+    }
+}
