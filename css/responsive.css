@@ -14,4 +14,8 @@
         background-image: url(../image/Banner-Mobile.png);
         padding: 5rem;
     }
+
+    .list-header {
+        display: none;
+    }
 }

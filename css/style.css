@@ -1,5 +1,4 @@
-/* Formatação Global da Página*/
-
+/*HEADER*/
 header {
     background-color: #D8D8C0;
     padding: 2rem;
@@ -13,7 +12,6 @@ header {
     z-index: 999;
 }
 
-/*LOGO*/
 .logo-JK {
     width: 8rem;
     height: auto;
@@ -25,7 +23,6 @@ header {
 }
 
 /*BANNER*/
-
 .banner {
     background-image: url(../image/Banner-Desktop.png);
     background-size: cover;
