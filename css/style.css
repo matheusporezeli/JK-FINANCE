@@ -1,7 +1,7 @@
 /*HEADER*/
 header {
     background-color: #D8D8C0;
-    padding: 2rem;
+    padding: 1rem;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -22,10 +22,166 @@ header {
     gap: 10px;
 }
 
+.ul-list a:hover {
+    color: #5f5f5f;
+}
+
 /*BANNER*/
 .banner {
     background-image: url(../image/Banner-Desktop.png);
     background-size: cover;
     background-position: top;
     padding: 13rem;
+}
+
+/*SERVIÇOS*/
+
+.servicos {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5rem 0;
+    text-align: center;
+
+    h2 {
+        font-size: 3rem;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding: 1rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+}
+
+.servicos-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+.card-serv {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    background-color: #cacaca;
+    padding: 1.5rem;
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    border-radius: 5px;
+
+    h3 {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .card-serv-icons {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+
+    input {
+        font-family: initial;
+        font-weight: 700;
+        padding: 0.5rem;
+        cursor: pointer;
+        font-size: 1rem;
+        height: 50px;
+        align-self: flex-end;
+        border-radius: 5px;
+
+        &:hover {
+            background-color: #3a3a3a;
+            color: #ffffff;
+        }
+    }
+}
+
+/*SOBRE*/
+
+.sobre {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5rem 0;
+}
+
+.sobre-texto {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    width: 350px;
+    height: 350px;
+
+    h3 {
+        font-size: 1.75rem;
+        font-weight: 700;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+
+    input {
+        font-family: initial;
+        font-weight: 700;
+        padding: 0.5rem;
+        cursor: pointer;
+        font-size: 1rem;
+        height: 50px;
+        align-self: flex-end;
+        border-radius: 5px;
+
+        &:hover {
+            background-color: #3a3a3a;
+            color: #ffffff;
+        }
+    }
+}
+
+.sobre-img {
+    height: 350px;
+    width: 350px;
+    background-image: url(../image/Sobre-IMG.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+/*NEWSLETTER*/
+
+.newsletter {
+    padding: 8rem 0;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.news-submit {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    input {
+        padding: 5px;
+    }
 }
