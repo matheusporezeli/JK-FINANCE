@@ -23,6 +23,10 @@
         display: none;
     }
 
+    .card-serv {
+        width: 300px;
+    }
+
     .newsletter {
         grid-template-rows: repeat(3, auto);
     }
