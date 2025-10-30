@@ -24,6 +24,7 @@ header {
 
 .ul-list a:hover {
     color: #5f5f5f;
+    text-decoration: underline;
 }
 
 /*BANNER*/
@@ -137,7 +138,6 @@ header {
     }
 
     input {
-        font-family: initial;
         font-weight: 700;
         padding: 0.5rem;
         cursor: pointer;
@@ -172,6 +172,18 @@ header {
     align-items: center;
     justify-content: center;
     text-align: center;
+    gap: 2rem;
+
+    h3 {
+        font-size: 1.75rem;
+        font-weight: 700;
+    }
+
+    p {
+        justify-self: center;
+        width: 70%;
+        font-size: 1.5rem;
+    }
 }
 
 .news-submit {
@@ -180,8 +192,89 @@ header {
     align-items: center;
     justify-content: center;
     text-align: center;
+    gap: 1rem;
 
     input {
         padding: 5px;
+        font-weight: 700;
+        border-radius: 5px;
+        font-size: 1rem;
+    }
+
+    .submit {
+        cursor: pointer;
+        width: 300px;
+
+        &:hover {
+            background-color: #3a3a3a;
+            color: #ffffff;
+        }
+    }
+}
+
+/*FOOTER*/
+
+footer {
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 0;
+    background-color: #141414;
+    color: #fff;
+
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+
+        .footer-links {
+            display: grid;
+            grid-template-rows: repeat(4, auto);
+            gap: 0.8rem;
+
+            h3 {
+                font-weight: 700;
+                font-size: 1.25rem;
+                margin-bottom: 1rem;
+            }
+
+            a:hover {
+                color: #5f5f5f;
+            }
+        }
+
+        .divisor {
+            border-left: 3px solid #ffffff;
+            height: 150px;
+        }
+    }
+
+    .redes-sociais {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8rem;
+        flex-wrap: wrap;
+        font-size: 1.25rem;
+        font-weight: 700;
+        border-top: 3px solid #ffffff;
+        padding-top: 2rem;
+
+        a:hover {
+            color: #5f5f5f;
+        }
+    }
+
+    .copyright {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 0.5rem;
+        font-size: 0.8rem;
     }
 }

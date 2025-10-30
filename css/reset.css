@@ -54,3 +54,11 @@ a {
     color: inherit;
     text-decoration: none;
 }
+
+input {
+	font-family: "Tinos", serif;
+	padding: 0;
+	margin: 0;
+	padding-block: 0;
+	padding-inline: 0;
+}

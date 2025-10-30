@@ -1,9 +1,13 @@
 /*TABLET*/
 
-@media (max-width: 900px) {
+@media (min-width: 501px) and (max-width: 900px) {
     .banner {
         background-image: url(../image/Banner-Tablet.png);
         padding: 8rem;
+    }
+
+    .sobre {
+        gap: 2rem;
     }
 }
 
@@ -17,5 +21,33 @@
 
     .list-header {
         display: none;
+    }
+
+    .newsletter {
+        grid-template-rows: repeat(3, auto);
+    }
+
+    footer {
+        nav {
+            flex-direction: column;
+            text-align: center;
+            gap: 1.5rem;
+
+            .divisor {
+                border-left: 0;
+                height: 0;
+                border-bottom: 3px solid #ffffff;
+                width: 80vw;
+            }
+        }
+
+        .redes-sociais {
+            gap: 2rem;
+        }
+
+        .copyright {
+            width: 400px;
+            justify-self: center;
+        }
     }
 }
