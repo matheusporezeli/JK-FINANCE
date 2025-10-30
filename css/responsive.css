@@ -44,10 +44,5 @@
         .redes-sociais {
             gap: 2rem;
         }
-
-        .copyright {
-            width: 400px;
-            justify-self: center;
-        }
     }
 }
