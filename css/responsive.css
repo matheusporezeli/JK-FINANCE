@@ -27,6 +27,11 @@
         width: 300px;
     }
 
+    .sobre {
+        gap: 1.5rem;
+        text-align: center;
+    }
+
     .newsletter {
         grid-template-rows: repeat(3, auto);
     }
