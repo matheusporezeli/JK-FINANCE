@@ -6,6 +6,14 @@
         padding: 8rem;
     }
 
+    .servicos-cards {
+        gap: 3rem;
+    }
+
+    .card-serv {
+        width: 300px;
+    }
+
     .sobre {
         gap: 2rem;
     }
