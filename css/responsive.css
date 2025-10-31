@@ -84,38 +84,38 @@
         display: block;
         text-align: right;
     }
-}
 
-/*Fim menu hamburguer*/
+    /*Fim menu hamburguer*/
 
-.card-serv {
-    width: 300px;
-}
-
-.sobre {
-    gap: 1.5rem;
-    text-align: center;
-}
-
-.newsletter {
-    grid-template-rows: repeat(3, auto);
-}
-
-footer {
-    nav {
-        flex-direction: column;
-        text-align: center;
-        gap: 1.5rem;
-
-        .divisor {
-            border-left: 0;
-            height: 0;
-            border-bottom: 3px solid #ffffff;
-            width: 80vw;
-        }
+    .card-serv {
+        width: 300px;
     }
 
-    .redes-sociais {
-        gap: 1rem;
+    .sobre {
+        gap: 1.5rem;
+        text-align: center;
+    }
+
+    .newsletter {
+        grid-template-rows: repeat(3, auto);
+    }
+
+    footer {
+        nav {
+            flex-direction: column;
+            text-align: center;
+            gap: 1.5rem;
+
+            .divisor {
+                border-left: 0;
+                height: 0;
+                border-bottom: 3px solid #ffffff;
+                width: 80vw;
+            }
+        }
+
+        .redes-sociais {
+            gap: 1rem;
+        }
     }
 }
