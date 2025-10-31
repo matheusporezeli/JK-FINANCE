@@ -27,6 +27,10 @@ header {
     text-decoration: underline;
 }
 
+.nav-mobile {
+    display: none;
+}
+
 /*BANNER*/
 .banner {
     background-image: url(../image/Banner-Desktop.png);

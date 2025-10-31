@@ -41,35 +41,81 @@
         display: none;
     }
 
-    .card-serv {
-        width: 300px;
+    /*Menu Hamburguer*/
+
+    .nav-mobile {
+        display: block;
+        z-index: 2;
+        top: 42px;
+        right: 25px;
+        position: absolute;
     }
 
-    .sobre {
-        gap: 1.5rem;
-        text-align: center;
+    #menu-bar {
+        cursor: pointer;
+        font-size: 1.5rem;
     }
 
-    .newsletter {
-        grid-template-rows: repeat(3, auto);
-    }
 
-    footer {
-        nav {
-            flex-direction: column;
-            text-align: center;
-            gap: 1.5rem;
+    .nav {
+        display: none;
 
-            .divisor {
-                border-left: 0;
-                height: 0;
-                border-bottom: 3px solid #ffffff;
-                width: 80vw;
+        li {
+            padding: 12px 0;
+
+            a:hover {
+                font-weight: 700;
             }
         }
+    }
 
-        .redes-sociais {
-            gap: 1rem;
+    /*Estilo após o click*/
+    .menu-change {
+        top: 0;
+        right: 0;
+        width: 100%;
+        background-color: black;
+        padding: 42px 25px;
+    }
+
+    .change {
+        font-size: 2rem;
+        color: white;
+        display: block;
+        text-align: right;
+    }
+}
+
+/*Fim menu hamburguer*/
+
+.card-serv {
+    width: 300px;
+}
+
+.sobre {
+    gap: 1.5rem;
+    text-align: center;
+}
+
+.newsletter {
+    grid-template-rows: repeat(3, auto);
+}
+
+footer {
+    nav {
+        flex-direction: column;
+        text-align: center;
+        gap: 1.5rem;
+
+        .divisor {
+            border-left: 0;
+            height: 0;
+            border-bottom: 3px solid #ffffff;
+            width: 80vw;
         }
+    }
+
+    .redes-sociais {
+        gap: 1rem;
     }
 }
