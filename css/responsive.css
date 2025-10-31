@@ -16,6 +16,16 @@
 
     .sobre {
         gap: 2rem;
+        padding: 2rem 0;
+    }
+
+    .newsletter {
+        grid-template-rows: repeat(3, auto);
+        padding: 3rem 0;
+    }
+
+    footer {
+        padding: 2rem;
     }
 }
 
